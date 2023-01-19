@@ -1,0 +1,45 @@
+.tower-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.tower-list div {
+  background: rebeccapurple;
+  width: 100px;
+  height: 100px;
+}
+
+.tower-list:hover.tower-information {
+  background: black;
+  width: 100px;
+  height: 100px;
+}
+
+[data-tooltip] {
+  position: relative; /* Относительное позиционирование */ 
+  white-space: pre-wrap;
+ }
+
+ [data-tooltip]::after {
+  content: attr(data-tooltip); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  width: 300px; /* Ширина подсказки */
+  left: 0; top: 100px; /* Положение подсказки */
+  background: #3989c9; /* Синий цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: 0.2s; /* Время появления подсказки */
+  
+ }
+
+ [data-tooltip]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+  top: 100px; /* Положение подсказки */
+ }
+
+ .selected-tower {
+   background-color: blue !important
+ }

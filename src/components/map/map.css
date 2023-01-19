@@ -1,0 +1,38 @@
+.map {
+	display: flex;
+  flex-direction: column;
+}
+
+.map-row {
+	display: flex;
+  flex-direction: row;
+}
+
+.map-cell {
+	width: 100px;
+  height: 100px;
+}
+
+.map-cell.block:hover {
+  background: #72cfc9;
+}
+
+.map-cell.boost:hover {
+  background: #72cfc9;
+}
+
+.road {
+  background: gray;
+}
+
+.block {
+  background:  black;
+}
+
+.tower {
+  background: green;
+}
+
+.finish {
+  background: red;
+}

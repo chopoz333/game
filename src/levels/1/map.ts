@@ -1,0 +1,12 @@
+import { ITile } from "../../entities/map";
+
+export const tilesInfo: ITile[][] = [
+  [{x: 0, y: 0, contentType: 'block'}, {x: 1, y: 0, contentType: 'road'}, {x: 2, y: 0, contentType: 'block'}, {x: 3, y: 0, contentType: 'block'}, {x: 4, y: 0, contentType: 'block'}, {x: 5, y: 0, contentType: 'block'}, {x: 6, y: 0, contentType: 'block'}, {x: 7, y: 0, contentType: 'block'}],
+  [{x: 0, y: 1, contentType: 'block'}, {x: 1, y: 1, contentType: 'road'}, {x: 2, y: 1, contentType: 'block'}, {x: 3, y: 1, contentType: 'block'}, {x: 4, y: 1, contentType: 'block'}, {x: 5, y: 1, contentType: 'block'}, {x: 6, y: 1, contentType: 'block'}, {x: 7, y: 1, contentType: 'block'}],
+  [{x: 0, y: 2, contentType: 'block'}, {x: 1, y: 2, contentType: 'road'}, {x: 2, y: 2, contentType: 'block'}, {x: 3, y: 2, contentType: 'block'}, {x: 4, y: 2, contentType: 'road'}, {x: 5, y: 2, contentType: 'road'}, {x: 6, y: 2, contentType: 'road'}, {x: 7, y: 2, contentType: 'block'}],
+  [{x: 0, y: 3, contentType: 'block'}, {x: 1, y: 3, contentType: 'road'}, {x: 2, y: 3, contentType: 'block'}, {x: 3, y: 3, contentType: 'block'}, {x: 4, y: 3, contentType: 'road'}, {x: 5, y: 3, contentType: 'block'}, {x: 6, y: 3, contentType: 'road'}, {x: 7, y: 3, contentType: 'block'}],
+  [{x: 0, y: 4, contentType: 'block'}, {x: 1, y: 4, contentType: 'road'}, {x: 2, y: 4, contentType: 'block'}, {x: 3, y: 4, contentType: 'block'}, {x: 4, y: 4, contentType: 'road'}, {x: 5, y: 4, contentType: 'block'}, {x: 6, y: 4, contentType: 'road'}, {x: 7, y: 4, contentType: 'block'}],
+  [{x: 0, y: 5, contentType: 'block'}, {x: 1, y: 5, contentType: 'road'}, {x: 2, y: 5, contentType: 'boost'}, {x: 3, y: 5, contentType: 'block'}, {x: 4, y: 5, contentType: 'road'}, {x: 5, y: 5, contentType: 'block'}, {x: 6, y: 5, contentType: 'road'}, {x: 7, y: 5, contentType: 'finish'}],
+  [{x: 0, y: 6, contentType: 'block'}, {x: 1, y: 6, contentType: 'road'}, {x: 2, y: 6, contentType: 'road'}, {x: 3, y: 6, contentType: 'road'}, {x: 4, y: 6, contentType: 'road'}, {x: 5, y: 6, contentType: 'block'}, {x: 6, y: 6, contentType: 'block'}, {x: 7, y: 6, contentType: 'block'}]
+  ,[{x: 0, y: 7, contentType: 'block'}, {x: 1, y: 7, contentType: 'block'}, {x: 2, y: 7, contentType: 'block'}, {x: 3, y: 7, contentType: 'block'}, {x: 4, y: 7, contentType: 'block'}, {x: 5, y: 7, contentType: 'block'}, {x: 6, y: 7, contentType: 'block'}, {x: 7, y: 7, contentType: 'block'}]
+]
